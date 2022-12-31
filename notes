@@ -1,1 +1,2 @@
 http post :4000/api/workouts/ title="Situps" load=0 reps=50
+http :4000/api/workouts title="Bench press" load="25" reps="40"
