@@ -1,2 +1,4 @@
 http post :4000/api/workouts/ title="Situps" load=0 reps=50
 http :4000/api/workouts title="Bench press" load="25" reps="40"
+http patch :4000/api/workouts/634583afdf6ec7777a03cb4d load="1"
+http delete :4000/api/workouts/634583afdf6ec7777a03cb4d
